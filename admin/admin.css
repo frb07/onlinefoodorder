@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* css for menu */
+.menu ul{
+    list-style-type: none;
+
+}
+.menu{
+    border-bottom: 1px solid gray;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu{
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4151;
+}
+
+/* css for main content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: #D7DBDD;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.clear-fix{
+    float: none;
+    clear: both;
+}
+.tbl-add-admin{
+    width: 30%;
+  }
+.btn-secondary{
+     background-color: #1abc9c;
+      padding: 1%;
+             color: black;
+              text-decoration: none;
+              font-weight: bold;
+          }
+.btn-secondary:hover{
+              background-color: #16a085;
+          }
+.btn-delete:hover{
+              background-color: #ee5253;
+          }
+.tbl-full{
+            width: 100%;
+                }
+table tr th{
+                border-bottom:1px solid black;
+                padding: 1%;
+                text-align: left;
+            }
+table tr td{
+                padding: 1%;
+            }
+.btn-primary{
+                background-color: #686de0;
+                padding: 1%;
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+.btn-primary:hover{
+                background-color: #30336b;
+            }
+.btn-secondary{
+                background-color: #1abc9c;
+                padding: 1%;
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+.btn-secondary:hover{
+                background-color: #16a085;
+ }
+.btn-delete{
+    background-color: #ff6b6b;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .login{
+     /* border: 1px solid gray; */
+     width: 20%;
+     margin: 10% auto;
+     padding: 2%;
+ }
+ .tbl-30{
+     width: 30%;
+ }
